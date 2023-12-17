@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+  background-color: #ddd;
+  width: 250px;
+  border: none;
+}
+
+button {
+  padding: 8px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: green;
+  transition: all 0.4s ease;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  width: 400px;
+  margin: 50px auto;
+}
+
+li {
+  display: flex;
+  border-radius: 0px 30px 0px 30px;
+  align-items: center;
+  gap: 60px;
+  padding: 15px 20px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  width: 650px;
+  margin-left: -150px;
+  font-size: 25px;
+  background-color: #333;
+  color: white;
+}
+
+li button {
+  background-color: #e74c3c;
+  margin-left: 20px;
+  border-radius: 0px 20px 0px 20px;
+  width: 70px;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+li button:hover {
+  background-color: white;
+  transition: all 1s linear;
+  color: black;
+}
+.title {
+  margin: 70px auto;
+  font-size: 40px;
+  font-family: monospace;
+}
+.input {
+  width: 550px;
+  padding: 20px 20px;
+  font-size: 25px;
+  font-family: monospace;
+  border-radius: 0px 0px 0px 30px;
+  background-color: white;
+  border: 3px solid black;
+}
+.input::placeholder {
+  font-size: 25px;
+  font-family: monospace;
+  color: gray;
+}
+.btn-add {
+  font-size: 25px;
+  border-radius: 0px 30px 0px 0px;
+  width: 130px;
+  height: 74.5px;
+  margin-left: -10px;
+  background-color: black;
+}
+.inputs {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 0px 30px 0px 30px;
+  border: 1px solid black;
+  outline: none;
+  border: none;
+}
